@@ -24,6 +24,10 @@ header {
     display: flex;
     list-style: none;
     gap: 20px;
+    align-items: center;
+}
+.nav .nav-links li {
+    display: flex;
 }
 .nav .nav-links li a{
     text-decoration: none;
@@ -32,10 +36,11 @@ header {
 .nav .nav-links li a.active {
     color: #fff;
 }
-.nav .nav-links li .btn {
+.nav .nav-links li button.btn {
     border: 2px solid black;
     padding: 5px 10px;
     background-color: #57b1bd;
     color: #fff;
     box-shadow: 5px 5px 0px 0px black;
+    align-self: flex-start;
 }
