@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.col {
+    flex: 1;
+    background-color: rgb(58, 175, 158);
+    padding: 20px;
+}
+.col2 {
+    flex: 2;
+    background-color: rgb(58, 175, 158);
+    padding: 20px;
+}
+.col3 {
+    flex: 3;
+    background-color: rgb(58, 175, 158);
+    padding: 20px;
+}
