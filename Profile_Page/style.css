@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Comic Neue";
+    src: url(fonts/ComicNeue-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Comic Neue";
+}
+header {
+    background-color: #111010;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+nav .nav-links li a{
+    text-decoration: none;
+    color: #c4c3c3;
+    font-weight: bold;
+}
+nav .nav-links li a.active {
+    color: #fff;
+}
+button {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px 15px;
+    background-color: #57b1bd;
+    font-family: "Comic Neue";
+    color: #fff;
+    font-size: 1rem;
+}
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+}
+.user-card {
+    flex: 2;
+    min-width: 400px;
+}
+.contain_image {
+    background-color: #4da5b2;
+    height: 80px;
+    position: relative;
+}
+.contain_image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    padding: 1px;
+    border: 2px solid #ccc;    
+}
+.user_info {
+    border: 2px solid #ccc;
+    border-top: 0;
+    padding: 20px;
+}
+.user_info h2 {
+    padding-top: 10px;
+}
+.user_info .location ,.user_info .setting {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+.user_info .location img ,.user_info .setting img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    align-self: flex-end;
+}
+
+.user_info ul {
+    list-style: none;
+    margin-top: 10px;
+}    
+.user_info .setting a {
+    color: rgb(79, 136, 228);
+}
+.education {
+    flex: 2;
+    min-width: 400px;
+    margin-top: 40px;
+}
+.education .edu {
+    background-color: #434242;
+    padding: 10px;
+}
+.education .edu h3 {
+    color: #fff;
+}
+.certificate {
+    border: 2px solid #ccc;
+    border-top: 0;
+    padding: 10px;
+}
+.certificate h5 {
+    font-size: 1.1rem;
+}
+.certificate p {
+    color: #767575;
+    margin-bottom: 10px;
+}
+.content {
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 50px ;
+}
+.header_connection {
+    background-color: #434242;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.header_connection span {
+    background-color: #ccc;
+    border-radius: 45%;
+    padding: 2px 8px;
+} 
+.header_connection p {
+    color: #fff;
+
+}
+.people_request {
+    border: 2px solid #ccc;
+    border-top: 0 ;
+}
+.people_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.people_img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.people_info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+hr{
+    border: none;
+    border: 1.5px solid #ccc;
+}
+.content a {
+    display: inline-block;
+    padding: 10px;
+}
