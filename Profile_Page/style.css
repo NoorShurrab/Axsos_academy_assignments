@@ -50,6 +50,7 @@ button {
     margin: 50px auto;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .user-card {
     flex: 2;
