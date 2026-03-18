@@ -19,11 +19,26 @@ for(let x = numbers.length-1; x >= 0; x--){
 
 console.log("3. Searching in Array");
 let numbers2 = [5, 10, 15, 20, 25];
-if (numbers2.includes(25)){
-    console.log("Found at position X");
-}else {
-    console.log("Not Found");
+let not = -1 ;
+// if (numbers2.includes(25)){
+//     console.log("Found at position X");
+// }else {
+//     console.log("Not Found");
+// }
+for (let n = 0; n < numbers2.length; n++){
+    if(numbers2[n] === 25){
+        not = n;
+        break;
 }
+}
+if(not !== -1){
+    console.log("Found at Position "+ not);
+}else{
+    console.log("not Found");
+}
+
+
+
 
 console.log("4. Sorting an Array");
 let scores = [50, 20, 70, 10, 40];
@@ -89,3 +104,4 @@ for (let i = 0; i < n; i++) {
     arr.unshift(lastElement);   
 }
 console.log(arr); 
+
