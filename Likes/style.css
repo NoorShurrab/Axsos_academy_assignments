@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+.num_one {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.num_one .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.num_one .one .innerlike{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.num_one .one .innerlike button {
+    padding: 6px 15px;
+    background-color: rgb(243, 193, 101);
+    border: 2px solid black;
+    box-shadow: 2px 3px 0 black;
+}
+/*  network page */
+.content {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    padding: 10px;
+}
+h1 {
+    color: white;
+}
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.2rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+.info a {
+    font-size: 1.5rem;
+}
+.info h5 {
+    font-size: 2rem;
+}
+.allitems {
+    display: flex;
+    gap: 20px;
+}
+.itemtwo {
+    flex: 3;
+}
+.itemtwo .num_two {
+    border: 3px solid black;
+    padding: 20px;  
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.itemtwo .num_two .two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.itemtwo .num_two .two .innerlike1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  
+}
+.itemtwo .num_two .two .innerlike1 .allLike {
+    padding: 6px 15px;
+    background-color: rgb(243, 193, 101);
+    border: 2px solid black;
+    box-shadow: 2px 3px 0 black;
+}
+.itemtwo .num_two p {
+    width: 100%;
+    display: block;
+}
