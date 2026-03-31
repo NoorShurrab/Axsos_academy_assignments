@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Comic Neue";
+    src: url(fonts/ComicNeue-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+}
+header {
+    background-color: #82bde7;
+    color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 2.5rem;
+}
+nav .cityName {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.3rem;
+    gap: 30px; 
+}
+.hero {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.hero .item_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.hero .item_one select {
+    font-size: 1rem;
+    padding: 5px;
+}
+.item_two {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+
+}
+.item_two .weatherState {
+    background-color: #e7e7e7;
+    border: none;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 2rem;
+}
+.item_two .weatherState img {
+    border-radius: 50%;
+    width: 272px;
+    height: 272px;
+}
+.item_two .weatherState p{
+    font-weight: bold;
+}
+.item_two .weatherState ul {
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.item_three {
+    margin-top: 5px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 2rem;
+    gap: 50px;
+    width: 80%;
+    position: fixed;
+    bottom: 2px;
+}
+.item_three img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+.item_three .accept {
+    padding: 6px 20px; 
+    border: 2px solid black;
+    background-color: rgb(169, 193, 239);
+    font-weight: bold;
+    box-shadow: 2px 5px 0 black;
+    font-size: 1.8rem;
+}
+span {
+    font-weight: bolder;
+    display: block;
+}
+.cookiesText {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
